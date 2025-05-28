@@ -1,0 +1,17 @@
+{
+  "9745f01d-38fb-4563-af50-80a3f9183612": {
+    "region": "us-west",
+    "dns": "dns1.validator.net",
+    "ip_resolved": "unresolved"
+  },
+  "e6c9eabf-51ed-4d00-bf19-14e8830271eb": {
+    "region": "eu-central",
+    "dns": "dns2.validator.eu",
+    "ip_resolved": "unresolved"
+  },
+  "1a5b57fa-f59d-4cf8-906c-783299c27d27": {
+    "region": "ap-south",
+    "dns": "dns3.validator.asia",
+    "ip_resolved": "unresolved"
+  }
+}

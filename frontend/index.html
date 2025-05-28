@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>POH Real Processor Interface</title></head>
+<body style="font-family:monospace;margin:20px;">
+  <h3>Processor Stream Control</h3>
+  <button onclick="startStream('json')">Start JSON Stream</button>
+  <button onclick="startStream('frame')">Start Frame Stream</button>
+
+  <h3>Submit Task</h3>
+  <textarea id="taskInput" rows="6" cols="80">
+{ "task": "hash", "data": "hello" }
+  </textarea><br>
+  <input type="file" id="fileInput" /><br>
+  <button onclick="submitTask()">Submit</button>
+
+  <canvas id="frameCanvas" width="1000" height="100" style="display:block;margin-top:20px;"></canvas>
+  <pre id="log"></pre>
+  <script src="api.js"></script>
+</body>
+</html>
