@@ -1,0 +1,26 @@
+{
+  "name": "poh-validator",
+  "version": "1.0.0",
+  "description": "Proof of History Validator Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vite",
+    "test": "vitest",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "blake3": "^3.0.0",
+    "chrono": "^2.7.0",
+    "sha3": "^2.1.4",
+    "uuid": "^9.0.1",
+    "vite": "^5.0.0",
+    "warp": "^0.3.0",
+    "ws": "^8.14.2",
+    "zstd": "^0.1.2"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}
